@@ -1,0 +1,17 @@
+{
+
+	"manifest_version": 2,
+
+	"name":"MNMS Laundry Tool",
+	"version":"1.0",
+	"description":"Makes doing laundry easy",
+
+
+	"options_page": "options.html",
+
+
+	"browser_action": {
+		"default_icon": "1207431806498547855laundry laundomat white.svg.hi.png",
+		"default_popup": "popup.html"
+	}
+}
