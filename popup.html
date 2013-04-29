@@ -1,28 +1,54 @@
 <!DOCTYPE html>
 <html>
-
 <head>
-<script type ="text/javascript" src = "lib/jquery-1.9.1.js"></script>
-<style type="text/css" href = "lib/bootstrap/css/bootstrap.css"></style>
-
+	<script type ="text/javascript" src = "lib/jquery-1.9.1.js"></script>
+	<link rel="stylesheet" href = "lib/bootstrap/css/bootstrap.min.css"></link>
 </head>
-
 <body>
-<p>Time to do some laundry!</p>
 
-<div></div>
+	<div class = "container">
+		<p>Time to do some laundry!</p>
 
+		<div id="info">
+			<div id = "1800">
+				
+				<h3>1800 Gowns</h3>
+				<dl class = "dl-horizontal" id = "1800 Gowns">
+					<dt>Medium</dt>
+					<dd id = "1800_m"></dd>
+					<dt>Large</dt>
+					<dd id = "1800_l"></dd>
+					<dt>XL</dt>
+					<dd id = "1800_xl"></dd>
+					<dt>2XL</dt>
+					<dd id = "1800_2xl"></dd>
+					<dt>3XL</dt>
+					<dd id = "1800_3xl"></dd>
+				</dl>
 
-<div id="number"></div>
-<button id = "reset">Reset</button>
+				<h3>C3 Gowns</h3>
+				<dl class = "dl-horizontal" id = "C3 Gowns">
+					<dt>Medium</dt>
+					<dd id = "c3_m"></dd>
+					<dt>Large</dt>
+					<dd id = "c3_l"></dd>
+					<dt>XL</dt>
+					<dd id = "c3_xl"></dd>
+					<dt>2XL</dt>
+					<dd id = "c3_2xl"></dd>
+					<dt>3XL</dt>
+					<dd id = "c3_3xl"></dd>
+				</dl>
+				
+			</div>
 
-<script type = "text/javascript" src = "system.js"></script>
+			<div id="number"></div>
+		</div>
+
+		<button class = "btn btn-large" id = "reset">Reset</button>
+
+		<script type = "text/javascript" src = "system.js"></script>
+		<script src = "lib/bootstrap/js/bootstrap.min.js"></script>
+	</div>
 </body>
-
-<!-- in here, display the number of gowns scanned in/out in each session -->
-
-
-
-
-
 </html>
