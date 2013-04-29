@@ -6,6 +6,12 @@
 	"version":"1.0",
 	"description":"Makes doing laundry easy",
 
+	"content_scripts": [ 
+		{
+			"matches": ["https://www-s.mechse.uiuc.edu/cleanroom/equipment/gowns.php"],
+			"js": ["system.js"]
+		}
+	],
 
 	"options_page": "options.html",
 
@@ -14,13 +20,7 @@
 		"default_icon": "1207431806498547855laundry laundomat white.svg.hi.png",
 		"default_popup": "popup.html"
 	}
+
 	
-	{
-	"content_scripts": [ 
-		{
-			"matches": ["https://www-s.mechse.uiuc.edu/cleanroom/equipment/gowns.php"],
-			"js": ["system.js"]
-			}
-		],
-	}
+	
 }

@@ -2,9 +2,13 @@
 
 // need to keep track of gown types, sizes, and barcodes if possible
 
-var barcode = "";
-var option = document.getElementById("#gown_status");
-alert(option);
+
+var barcode = document.gown_processing.barcode.value;
+alert(barcode)
+
+
+alert(option.value)
+alert("Plugin is Running")
 
 
 function toLaundry(){
